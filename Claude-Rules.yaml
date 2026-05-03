@@ -1,0 +1,45 @@
+payload:
+  # ===================== 1. 风控反欺诈核心 =====================
+  - DOMAIN-SUFFIX,datadoghq.com
+  - DOMAIN,browser-intake-us5-datadoghq.com
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,api3.siftscience.com
+  - DOMAIN-SUFFIX,siftscience.com
+
+  # ===================== 2. 行为监控/统计/埋点 =====================
+  - DOMAIN,cdn.usefathom.com
+  - DOMAIN,o1158394.ingest.us.sentry.io
+  - DOMAIN,api.segment.io
+  - DOMAIN,api.revenuecat.com
+  - DOMAIN,api.snapkit.com
+  - DOMAIN,roovza.inapps.appsflyersdk.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN,api.statsigapi.net
+  - DOMAIN,app.launchdarkly.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,launchdarkly.com
+
+  # ===================== 3. 支付 / 在线客服 / 云盘桥接 =====================
+  - DOMAIN,m.stripe.com
+  - DOMAIN,nexus-websocket-a.intercom.io
+  - DOMAIN,bridge.claudeusercontent.com
+
+  # ===================== 4. 进程级 仅Claude专属Google埋点 =====================
+  - PROCESS-NAME,Claude,www.googletagmanager.com
+  - PROCESS-NAME,cloud-drive-daemon,www.googletagmanager.com
+  - PROCESS-NAME,Claude Helper,www.googletagmanager.com
+
+  # ===================== 5. 文件上传 / 静态资源 =====================
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,claudemcpcontent.com
+
+  # ===================== 6. Claude 官方核心全量域名 =====================
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,api.anthropic.com
+  - DOMAIN-SUFFIX,client.anthropic.com
+  - DOMAIN-SUFFIX,static.anthropic.com
+  - DOMAIN,api-production.8-lives-cat.io
+  - DOMAIN-SUFFIX,8-lives-cat.io
