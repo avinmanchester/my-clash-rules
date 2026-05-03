@@ -51,11 +51,11 @@ payload:
   - DOMAIN-SUFFIX,addins.store.office.com
   - DOMAIN-SUFFIX,addins.omex.office.net
   - DOMAIN-SUFFIX,officeapps.live.com
-
+  
   # 插件登录/用户信息
   - DOMAIN-SUFFIX,microsoftonline.com
   - DOMAIN-SUFFIX,graph.microsoft.com
-
+  
   # 插件资源/文件同步
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,azureedge.net
