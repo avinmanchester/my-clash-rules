@@ -45,3 +45,18 @@ payload:
   - DOMAIN-SUFFIX,8-lives-cat.io
   # =======================7. 测试IP查询（可删除）==========================
   - DOMAIN-SUFFIX,ip.sb
+  
+  # =======================8. 微软Claude插件 ================================
+  # 插件商店/服务核心
+  - DOMAIN-SUFFIX,addins.store.office.com
+  - DOMAIN-SUFFIX,addins.omex.office.net
+  - DOMAIN-SUFFIX,officeapps.live.com
+
+  # 插件登录/用户信息
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,graph.microsoft.com
+
+  # 插件资源/文件同步
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,svc.cloud.microsoft
