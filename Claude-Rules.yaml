@@ -25,16 +25,11 @@ payload:
   - DOMAIN,nexus-websocket-a.intercom.io
   - DOMAIN,bridge.claudeusercontent.com
 
-  # ===================== 4. 进程级 仅Claude专属Google埋点 =====================
-  - PROCESS-NAME,Claude,www.googletagmanager.com
-  - PROCESS-NAME,cloud-drive-daemon,www.googletagmanager.com
-  - PROCESS-NAME,Claude Helper,www.googletagmanager.com
-
-  # ===================== 5. 文件上传 / 静态资源 =====================
+  # ===================== 4. 文件上传 / 静态资源 =====================
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,claudemcpcontent.com
 
-  # ===================== 6. Claude 官方核心全量域名 =====================
+  # ===================== 5. Claude 官方核心全量域名 =====================
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
@@ -43,10 +38,10 @@ payload:
   - DOMAIN-SUFFIX,static.anthropic.com
   - DOMAIN,api-production.8-lives-cat.io
   - DOMAIN-SUFFIX,8-lives-cat.io
-  # =======================7. 测试IP查询（可删除）==========================
+  # =======================6. 测试IP查询（可删除）==========================
   - DOMAIN-SUFFIX,ip.sb
   
-  # =======================8. 微软Claude插件 ================================
+  # =======================7. 微软Claude插件 ================================
   # 插件商店/服务核心
   - DOMAIN-SUFFIX,addins.store.office.com
   - DOMAIN-SUFFIX,addins.omex.office.net
