@@ -1,4 +1,8 @@
 payload:
+  
+  - PROCESS-NAME,Claude
+  - PROCESS-NAME,Claude Helper
+  
   # ===================== 1. 风控反欺诈核心 =====================
   - DOMAIN-SUFFIX,datadoghq.com
   - DOMAIN,browser-intake-us5-datadoghq.com
